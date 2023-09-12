@@ -8,11 +8,66 @@
 
 }
 
-/* FORTSÄTTER 10:02 */
+/* Flexbox Practice */
+
+/* flex-direction
+    row
+    row-reverse
+    column
+    column-reverse
+*/
+
+/* flex-wrap: wrap 
+    Controls direction and multiline of items
+*/
+
+/* background-color
+    VERY GOOD FOR DEBUGGING! (space for element and size)
+*/
+
+/* justify-content
+    space == positioning
+*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: deepskyblue;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container > p {
+    background-color: black;
+    color: aliceblue;
+    font-size: 2rem;
+
+    padding: 16px;
+    margin: 16px;
+
+} 
 
 
 
 
+/* Grid Practice - BONUS */
+.grid-container {
+    background-color: skyblue;
+    display: grid;
+    
+    column-gap: 50px;
+    row-gap: 50px;
 
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-container > p {
+    background-color: black;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+
+/* NOTE - Fixa labb slide med punkter */
 
 
